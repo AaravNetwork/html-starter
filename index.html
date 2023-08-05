@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HTML Starter(Tony Stark)</title>
+    <title>HTML Starter</title>
     <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/128/3749/3749784.png" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <link rel="stylesheet" href="./css/font.css">
@@ -17,7 +17,7 @@
     <header class="header">
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
             <div class="container">
-                <a class="navbar-brand" href="#">HTML Starter(Tony Stark)</a>
+                <a class="navbar-brand" href="#">HTML Starter</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                     aria-label="Toggle navigation">
@@ -60,24 +60,54 @@
     <!-- HEADER END -->
     <main>
         <!-- BANNER START -->
-        <section class="banner">
+        <section class="banner bg-success">
             <div class="container">
                 <div class="banner-inner">
-
+                    <div class="py-5">
+                        <h1 class="pt-5">Banner Area</h1>
+                    </div>
                 </div>
             </div>
         </section>
         <!-- BANNER END -->
+        <!-- SLIDER START -->
+        <div class="myslider bg-primary-subtle">
+            <div class="container">
+                <div class="myslider-inner">
+                    <div class="owl-carousel owl-theme first-slider" id="first-slider">
+                        <div class="item first-slider-item">
+                            <div class="first-slider-inner py-5">
+                                <h2>Owl Slider 1</h2>
+                            </div>
+                        </div>
+                        <div class="item first-slider-inner">
+                            <div class="first-slider-inner py-5">
+                                <h2>Owl Slider 2</h2>
+                            </div>
+                        </div>
+                        <div class="item first-slider-inner">
+                            <div class="first-slider-inner py-5">
+                                <h2>Owl Slider 3</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- SLIDER END -->
     </main>
     <!-- FOOTER START -->
     <footer class="footer">
         <div class="container">
             <div class="footer-inner">
-                 
+                 <p class="py-3 text-center">&copy; Copyright 2023. All Rights Reserved.</p>
             </div>
         </div>
     </footer>
     <!-- FOOTER END -->
+    <!-- BACK TO TOP START -->
+    <a href="javascript:void(0);" id="backtop" class=""><i class="fa-solid fa-chevron-up"></i></a>
+    <!-- BACK TO TOP END -->
     <script src="./js/jquery.js"></script>
     <script src="./js/bootstrap.js"></script>
     <script src="./js/owl.js"></script>
